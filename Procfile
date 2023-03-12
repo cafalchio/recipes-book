@@ -1,1 +1,1 @@
-web: gunicorn recipes-book.wsgi:application
+web: gunicorn recipes-book.wsgi
