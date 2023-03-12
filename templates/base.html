@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% block head-meta %}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,12 @@
     {% bootstrap_css %}
     {% bootstrap_javascript %}
     {% bootstrap_messages %}
-    {% load static %}
+    {% endblock %}
     <title>Recipe's Book</title>
 </head>
 <body>
     {% include 'navbar.html' %}
+
     {% block content %}
     {% endblock content %}
 </body>

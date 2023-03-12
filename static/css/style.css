@@ -33,6 +33,25 @@
     position: relative;
     z-index: -1;
    }
+
+.web-page-welcome {
+    color: #e9e8ea;
+    margin-top: 15%;
+    margin-left: 5%;
+    text-align: left;
+}
+.web-page-welcome-main {
+    font-size: 3.7rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px #000000;
+}
+.web-page-welcome-p {
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 0 0 10px #000000;
+}
+
 .web-page-logo {
     height: 2.2rem;
 }
