@@ -22,17 +22,17 @@
     --bs-btn-disabled-border-color: #2da2a6;
   }
 
+/* ------------- WEB-PAGE ------------- */
 .web-page {
     background-image: url("../img/background.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
-    margin-top: -68px;
+    margin-top: -70px;
     overflow: hidden;
     position: relative;
     z-index: -1;
    }
-
 .web-page-logo {
-    height: 50px;
+    height: 2.2rem;
 }

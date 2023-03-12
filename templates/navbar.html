@@ -1,8 +1,12 @@
 {% load static %}
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"> 
-      <img class="web-page-logo" src="static/img/logo_text_white.png" alt="logo"> 
+    <a class="navbar-brand" href="#">
+      <img
+        class="web-page-logo"
+        src="static/img/logo_text_white.png"
+        alt="logo"
+      />
     </a>
     <button
       class="navbar-toggler"
@@ -18,10 +22,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">HOME </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">MY RECIPES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAVORITES</a>
         </li>
       </ul>
       {% if user.is_authenticated %}
@@ -36,7 +43,6 @@
         <button class="btn btn-success">LOGIN</button>
       </span>
       {% endif %}
-
     </div>
   </div>
 </nav>
