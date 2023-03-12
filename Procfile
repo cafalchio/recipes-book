@@ -1,1 +1,1 @@
-web: gunicorn recipes-book.wsgi --log-file -
+web: gunicorn recipes-book.wsgi:application
