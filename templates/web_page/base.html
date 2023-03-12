@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +9,11 @@
     {% bootstrap_css %}
     {% bootstrap_javascript %}
     {% bootstrap_messages %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
     <title>Recipe's book</title>
+
 </head>
+{% include 'navbar.html' %}
 <body>
     <div><h1>Test</h1></div>
     {% block content %}
