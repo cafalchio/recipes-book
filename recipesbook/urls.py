@@ -20,7 +20,7 @@ from web_page import views as web_page_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('logout/', web_page_views.logout, name='logout'),
+    path('logout/', web_page_views.logout_view, name='logout'),
     path('', web_page_views.home , name='home'),
     path('recipes/', recipe_views.get_all, name='recipe_list'),
 ]
