@@ -36,6 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'django_bootstrap5',
+    'web_page',
+    'recipes',
 ]
 
 MIDDLEWARE = [
