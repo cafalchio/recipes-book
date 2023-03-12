@@ -34,8 +34,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_bootstrap5',
-    'web_page',
-    'recipes',
 ]
 
 MIDDLEWARE = [
@@ -111,7 +109,7 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
-STATICFILES_STORAGE = "cloudinary_storage.storage.StaticHashedCloudinaryStorage"
+# STATICFILES_STORAGE = "cloudinary_storage.storage.StaticHashedCloudinaryStorage"
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static/'),
 ]
