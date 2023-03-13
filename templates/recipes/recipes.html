@@ -1,15 +1,16 @@
 {% extends 'base.html' %}
-
 {% block content %}
 {% for recipe in recipes %}
-<div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">{{recipe.title}}</h5>
-    </div>
-    {% comment %} <img src={recipe.url} class="card-img-top" alt="recipe image"> {% endcomment %}
-    <div class="card-body">
-      <p class="card-text">{{recipe.description}}</p>
-    </div>
+<div class="card-container">
+  <div class="card recipe-card" style="width: 18rem;">
+      <img src={{recipe.image}} class="card-img-top" alt={{recipe.title}}>
+      <div class="card-body">
+        <h5 class="card-title">{{recipe.title}}</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">{{recipe.description}}</p>
+      </div>
   </div>
+</div>
 {% endfor %}
 {% endblock %}

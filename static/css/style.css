@@ -53,5 +53,8 @@
 }
 
 .web-page-logo {
-    height: 2.2rem;
+    height: 2rem;
+}
+.card-container {
+    margin: 2rem;
 }

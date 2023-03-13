@@ -1,19 +1,6 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% load django_bootstrap5 %}
-    {% bootstrap_css %}
-    {% bootstrap_javascript %}
-    {% bootstrap_messages %}
-    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
-    <title>Recipe's book</title>
+{% extends 'base.html' %}
 
-</head>
-{% include 'navbar.html' %}
+{% block content %}
 <body>
     <div class="web-page">
         <div class="web-page-welcome">
@@ -22,5 +9,4 @@
             <p class="web-page-welcome-p">Enjoy your meal!</p>
         </div>
     </div>
-</body>
-</html>
+{% endblock %}
