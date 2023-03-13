@@ -43,7 +43,10 @@
         <button class="btn btn-success">SIGNUP</button>
       </span>
       <span class="navbar-text d-flex me-2">
-        <button class="btn btn-success">LOGIN</button>
+        <form action="{% url 'login_page' %}" method="POST">
+          {% csrf_token %}
+          <button class="btn btn-success">LOGIN</button>
+        </form>
       </span>
       {% endif %}
     </div>
