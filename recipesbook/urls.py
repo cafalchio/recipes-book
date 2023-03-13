@@ -20,9 +20,10 @@ from web_page import views as web_page_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('login_page/', web_page_views.login_page, name='login_page'),
     path('logout/', web_page_views.logout_view, name='logout'),
     path('', web_page_views.home , name='home'),
-    path('recipes/', recipe_views.get_all, name='recipe_list'),
+    path('recipes/', recipe_views.public_recipes, name='recipe_list'),
 ]
 
     # path('recipes/<int:recipe_id>/', RecipeView.as_view(), name='recipe_detail'),
