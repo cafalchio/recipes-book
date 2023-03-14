@@ -3,8 +3,8 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 
 
-def home(request):
-    return render(request, 'web_page/home.html')
+def index(request):
+    return render(request, 'web_page/index.html')
 
 def login_page(request):        
     return render(request, 'web_page/login.html')
@@ -13,4 +13,4 @@ def login_page(request):
 def logout_view(request):
     if request.method == 'POST':
         logout(request)
-        return redirect('home')
+        return redirect('index')
