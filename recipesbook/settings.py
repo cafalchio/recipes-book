@@ -24,6 +24,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['recipes-book.herokuapp.com', "*"]
 
+ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 # Application definition
 
@@ -33,6 +34,10 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
@@ -50,6 +55,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+SITE_ID = 1
+
+LOGIN_REDIRECT_URL = 'index'
+
+LOGOUT_REDIRECT_URL = 'index'
 
 ROOT_URLCONF = 'recipesbook.urls'
 

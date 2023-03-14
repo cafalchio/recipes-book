@@ -33,20 +33,14 @@
       </ul>
       {% if user.is_authenticated %}
       <span class="navbar-text d-flex me-4">
-        <form action="{% url 'logout' %}" method="POST">
-          {% csrf_token %}
-          <button class="btn btn-success">LOGOUT</button>
-        </form>
+        <a class="btn btn-success" href={% url 'account_logout' %} >LOGOUT</a>
       </span>
       {% else %}
       <span class="navbar-text d-flex me-4">
-        <button class="btn btn-success">SIGNUP</button>
+        <a class="btn btn-success" href={% url 'account_signup' %}>SIGNUP</a>
       </span>
       <span class="navbar-text d-flex me-2">
-        <form action="{% url 'login_page' %}" method="POST">
-          {% csrf_token %}
-          <button class="btn btn-success">LOGIN</button>
-        </form>
+          <a class="btn btn-success" href={% url 'account_login' %}>LOGIN</a>
       </span>
       {% endif %}
     </div>
