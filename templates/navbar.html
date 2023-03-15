@@ -30,6 +30,11 @@
         <li class="nav-item">
           <a class="nav-link" href="#">FAVORITES</a>
         </li>
+        {% if user.is_authenticated %}
+          <li class="nav-item">
+            <a class="nav-link"  href={% url 'my_recipes' %}>MY RECIPES</a>
+          </li>
+          {% endif %}
       </ul>
       {% if user.is_authenticated %}
       <span class="navbar-text d-flex me-4">

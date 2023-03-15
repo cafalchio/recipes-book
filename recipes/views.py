@@ -18,7 +18,7 @@ def public_recipe(request, recipe_id):
 @login_required
 def get_my_recipes(request):
     recipes = Recipe.objects.filter(user=request.user)
-    return render(request, 'recipes.html', {'recipes': recipes})
+    return render(request, 'recipes/recipes.html', {'recipes': recipes})
 
 @login_required
 def add_recipe(request, recipe_id):

@@ -62,6 +62,15 @@
     box-shadow: var(--bl-background) 0 0 10px;
     width: fit-content;
 }
+/* ------------- FOOTER ------------- */
+
+.footer-text {
+  color: #e7e4e4;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* ------------- SIGNUP ------------- */
 form {
