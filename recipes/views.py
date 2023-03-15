@@ -26,14 +26,14 @@ def add_recipe(request, recipe_id):
     if request.method == 'POST':
         if form.is_valid():
             form.save()
-            return render(request, 'recipe.html', {'recipe': recipe})    
-        return # show error message in the form
+            
+        return 
     
 @login_required     
 def delete_recipe(request, recipe_id):
     if request.user != recipe_id.user:
         return render('') # send to a page and show a message 
-    # delete
+    recipe_id.delete()
 
 def edit_recipe(request, recipe_id):
     if request.uer != recipe_id.user:
