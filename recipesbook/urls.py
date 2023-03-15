@@ -26,6 +26,7 @@ urlpatterns = [
     path('', web_page_views.index , name='index'),
     path('recipes/', recipe_views.public_recipes, name='recipe_list'),
     path('my_recipes/', recipe_views.public_recipes, name='my_recipes'),
+    path('public_recipe/<int:recipe_id>/', recipe_views.public_recipe, name='public_recipe'),
 ]
 # + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
