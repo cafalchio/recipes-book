@@ -109,3 +109,13 @@ form button[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
   }
+   /* Logout */
+  .logout-form {
+    text-align: center;
+    max-width: max(400px, 40vw);
+  }
+  /* Add recipe */
+  .add-recipe-form {
+    max-width: max(400px, 40vw);
+    margin: auto;
+  }

@@ -21,21 +21,29 @@ def get_my_recipes(request):
     return render(request, 'recipes/recipes.html', {'recipes': recipes})
 
 @login_required
-def add_recipe(request, recipe_id):
-    form = RecipeForm(request.POST or None, request.FILES or None)
-    if request.method == 'POST':
-        if form.is_valid():
-            form.save()
-            
-        return 
+def get_my_recipe(request):
+    recipes = Recipe.objects.filter(user=request.user)
+    return render(request, 'recipes/recipe.html', {'recipes': recipes})
+
+@login_required
+def add_recipe(request):
+    submited = False
+    return render(request, 'recipes/add_recipe.html', {'form': RecipeForm()})
+    # form = RecipeForm(request.POST or None, request.FILES or None)
+    # if request.method == 'POST':
+        
+        
+        
     
 @login_required     
 def delete_recipe(request, recipe_id):
+    print(f"REQUEST USER: {request.user}")
+    print(f"RECIPE USER: {recipe_id.user}")
     if request.user != recipe_id.user:
         return render('') # send to a page and show a message 
     recipe_id.delete()
 
 def edit_recipe(request, recipe_id):
-    if request.uer != recipe_id.user:
+    if request.user != recipe_id.user:
         return render('') # send to a page and show a message 
     
