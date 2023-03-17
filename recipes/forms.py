@@ -13,7 +13,7 @@ class RecipeForm(forms.ModelForm):
             'servings': forms.NumberInput(attrs={'class': 'form-control'}),
             'ingredients': forms.Textarea(attrs={'class': 'form-control'}),
             'instructions': forms.Textarea(attrs={'class': 'form-control'}),
-            'image': forms.FileInput(attrs={'class': 'form-control'}),
+            'image': forms.FileInput(attrs={'class': 'form-control-file'}),
             'is_public': forms.CheckboxInput(attrs={'class': 'form-check-input'}),
             'user': forms.HiddenInput(),
             }
