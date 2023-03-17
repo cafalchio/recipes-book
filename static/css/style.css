@@ -2,13 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+  body {
+    text-rendering: optimizeLegibility;
     --bs-green: #2da2a6;
     --bl-background: rgba(0, 0, 0, 0.125);
+    --text-subtle: hsl(228, 11%, 44%);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: calc(.7rem + 0.4vw);
-}
-
-.btn-success {
+  }
+  
+  .btn-success {
     --bs-btn-color: #fff;
     --bs-btn-bg:  var(--bs-green);
     --bs-btn-border-color: var(--bs-green);
@@ -72,10 +76,16 @@
   justify-content: center;
 }
 
-/* ------------- SIGNUP ------------- */
+/* ------------- FORMS ------------- */
+.form-title{
+  color: var(--text-subtle);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 form {
-    background-color: #e7e4e4;
-    border: 1px solid #ccc;
+    background-color: #ddd7d7;
+    border: 1px solid #bebebe;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px var(--bl-background);
@@ -97,11 +107,16 @@ form input {
   font-size: 16px;
 }
 
-form input[type="checkbox"] {
+.form-check-input {
     display: inline-block;
-    width: 40px;
+    height: 20px; 
+    height: 20px;
     margin-right: 10px;
   }
+
+.form-control {
+  background-color: var(--bs-body-bg);
+}
 
 form button[type="submit"] {
     padding: 10px 20px;
@@ -114,8 +129,15 @@ form button[type="submit"] {
     text-align: center;
     max-width: max(400px, 40vw);
   }
+.form-title-subtext {
+  color: var(--text-subtle);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
   /* Add recipe */
   .add-recipe-form {
+    padding-top: 2rem;
     max-width: max(400px, 40vw);
     margin: auto;
   }
