@@ -11,6 +11,7 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('recipes/', recipe_views.public_recipes, name='recipe_list'),
     path('my_recipes/', recipe_views.public_recipes, name='my_recipes'),
+    path('recipes/recipe/<int:recipe_id>/', recipe_views.get_my_recipe, name='recipe_detail'),
     path('recipes/delete/<int:recipe_id>/', recipe_views.delete_recipe, name='delete_recipe'),
     path('public_recipe/<int:recipe_id>/', recipe_views.public_recipe, name='public_recipe'),
     path('recipes/add/', recipe_views.add_recipe, name='add_recipe'),

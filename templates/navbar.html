@@ -27,9 +27,6 @@
         <li class="nav-item">
           <a class="nav-link" href={% url 'recipe_list' %}>RECIPES</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">FAVORITES</a>
-        </li>
         {% if user.is_authenticated %}
           <li class="nav-item">
             <a class="nav-link"  href={% url 'my_recipes' %}>MY RECIPES</a>
