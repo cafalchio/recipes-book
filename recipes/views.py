@@ -4,6 +4,10 @@ from django.shortcuts import redirect, render, get_object_or_404
 from recipes.forms import RecipeForm
 from recipes.models import Recipe
 
+
+
+
+
 def public_recipes(request):
     """List all public recipes"""
     recipes = Recipe.objects.filter(is_public=True)
