@@ -136,3 +136,9 @@ DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Error handling
+handler400 = 'recipesbook.urls.handler400'
+handler403 = 'recipesbook.urls.handler403'
+handler404 = 'recipesbook.urls.handler404'
+handler500 = 'recipesbook.urls.handler500'
