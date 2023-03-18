@@ -179,6 +179,7 @@ form input[type="checkbox"] {
 
 /* Logout */
 .logout-form {
+  margin-top: 10%;
   text-align: center;
   max-width: max(400px, 40vw);
 }
