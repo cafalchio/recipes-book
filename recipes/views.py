@@ -1,6 +1,6 @@
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseForbidden
-from django.shortcuts import redirect, render
+from django.shortcuts import redirect, render, get_object_or_404
 from recipes.forms import RecipeForm
 from recipes.models import Recipe
 
@@ -9,11 +9,14 @@ def public_recipes(request):
     return render(request, 'recipes/recipes.html', {'recipes': recipes})
 
 def public_recipe(request, recipe_id):
-    recipe = Recipe.objects.get(id=recipe_id)
-    if recipe.is_public:
-        return render(request, 'recipes/recipe.html', {'recipe': recipe})
-    else:
-        return HttpResponseForbidden()
+    """
+    Render selected public recipe detailed view page
+    """
+    recipe = get_object_or_404(Recipe, pk=recipe_id, is_public=True)
+    context = {
+        'recipe': recipe,
+    }
+    return render(request, 'recipes/recipe.html', context)
 
 @login_required
 def get_my_recipes(request):
