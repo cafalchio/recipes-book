@@ -8,7 +8,6 @@ Visitors can brownse public recipes to find the dish they want to prepare.
 # UX
 This site was created respecting the Five Planes Of Website Design:
 
-
 ## Strategy
 
 **User Stories:**  
@@ -37,8 +36,22 @@ This site was created respecting the Five Planes Of Website Design:
 
 
 ## Surface
+
 ### Color Scheme
+
+    The colors choosen can all be seen in this image: The colors in hexa are:
+
+    --bs-green: #2da2a6;
+    --bl-background: #00000020;
+    --text-subtle: #64697d;
+     background-color: #f5f5f5;
+
+
 ### Fonts
+    
+    The fonts were selected to be used as system fonts. 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
 # Agile Methodology
 
 # Features
