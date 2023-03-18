@@ -1,8 +1,6 @@
 {% extends 'base.html' %} {% block content %}
-<div class="add-recipe-form">
-  <h3 class="form-title">EDIT RECIPE</h3>
-
-  <form method="POST">
+<div class="container">
+  <form method="POST" class="recipe-page m-8">
     {% csrf_token %} {{ form.as_p }}
     <button type="submit" class="btn btn-success">Save changes</button>
     <a href="{% url 'my_recipes' %}" class="btn btn-danger">Cancel</a>

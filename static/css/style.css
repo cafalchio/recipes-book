@@ -39,7 +39,6 @@ a:hover {
   --bs-btn-disabled-border-color: var(--bs-green);
 }
 
-
 /* ------------- WEB-PAGE ------------- */
 .web-page {
   margin-top: 0;
@@ -101,6 +100,7 @@ a:hover {
 }
 
 /* ------------- RECIEPE PAGE ------------- */
+
 .recipe-page {
   font-size: larger;
   background-color: #ddd7d7;
@@ -112,7 +112,6 @@ a:hover {
   justify-content: center;
   margin-top: 2em;
 }
-
 
 
 /* ------------- FOOTER ------------- */
@@ -130,6 +129,14 @@ a:hover {
   color: var(--text-subtle);
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--bs-green);
+  color: var(--text-subtle);
 }
 
 form {
@@ -152,9 +159,6 @@ form input {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid var(--bs-green);
-  font-size: 16px;
-  font-size: medium;
-  font-family: "Times New Roman", Times, serif, sans-serif;
   color: var(--text-subtle);
 }
 
@@ -163,10 +167,6 @@ form input {
   height: 20px;
   height: 20px;
   margin-right: 10px;
-}
-
-.form-control {
-  background-color: var(--bs-body-bg);
 }
 
 form input[type="checkbox"] {
@@ -182,15 +182,4 @@ form input[type="checkbox"] {
   text-align: center;
   max-width: max(400px, 40vw);
 }
-.form-title-subtext {
-  color: var(--text-subtle);
-  font-size: 1rem;
-  font-weight: 700;
-}
 
-/* Add recipe */
-.add-recipe-form {
-  padding-top: 2rem;
-  max-width: max(400px, 40vw);
-  margin: auto;
-}

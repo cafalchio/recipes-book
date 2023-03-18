@@ -4,7 +4,6 @@ from django.urls import path, include
 from django.contrib import admin
 from django.shortcuts import render
 from recipes import views as recipe_views
-from web_page import views as web_page_views
 from django.conf.urls import handler400, handler403, handler404, handler500
 
 
