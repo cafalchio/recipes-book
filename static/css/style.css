@@ -72,11 +72,34 @@ a:hover {
 .web-page-logo {
   height: 2rem;
 }
+
+/* ------------- RECIEPS ------------- */
+
+.card-text {
+  overflow: hidden;
+  height: 4rem;
+}
+
+.card-img-top {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
 .card-container {
   margin: 2rem;
   box-shadow: var(--bl-background) 0 0 10px;
   width: fit-content;
 }
+
+.recipes-page {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 1rem;
+}
+
 /* ------------- FOOTER ------------- */
 
 .footer-text {
