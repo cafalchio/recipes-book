@@ -17,7 +17,8 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Recipe',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True,
+                 primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=50)),
                 ('description', models.TextField()),
                 ('cooking_time', models.CharField(max_length=50)),
@@ -26,7 +27,8 @@ class Migration(migrations.Migration):
                 ('servings', models.CharField(max_length=50)),
                 ('image', models.URLField(blank=True, null=True)),
                 ('is_public', models.BooleanField(default=False)),
-                ('user', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                ('user', models.ForeignKey(blank=True, null=True,
+                 on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
         ),
     ]

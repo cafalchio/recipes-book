@@ -46,7 +46,7 @@ a:hover {
     url("https://res.cloudinary.com/dgvr6jgdo/image/upload/v1/static/img/background.dacc4f3a5c27.jpg"); */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   height: calc(100vh - min(54px, 10.3vw));
   overflow: hidden;
 }
@@ -109,11 +109,11 @@ a:hover {
   padding: 20px;
   border-radius: 10px;
   /* https://getcssscan.com/css-box-shadow-examples */
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   justify-content: center;
   margin-top: 2em;
 }
-
 
 /* ------------- FOOTER ------------- */
 
@@ -186,4 +186,3 @@ form input[type="checkbox"] {
   text-align: center;
   max-width: max(400px, 40vw);
 }
-
