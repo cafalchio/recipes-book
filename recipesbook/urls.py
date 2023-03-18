@@ -21,7 +21,7 @@ def handler500(request):
     return render(request, '500.html', status=500)
 
 urlpatterns = [
-    path('', web_page_views.index , name='index'),
+    path('', recipe_views.index , name='index'),
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
     path('recipes/', recipe_views.public_recipes, name='recipe_list'),
