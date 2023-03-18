@@ -46,6 +46,7 @@ a:hover {
     url("https://res.cloudinary.com/dgvr6jgdo/image/upload/v1678660285/static/img/background.dacc4f3a5c27.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat; 
   height: calc(100vh - min(54px, 10.3vw));
   overflow: hidden;
 }
