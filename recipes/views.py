@@ -1,12 +1,28 @@
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponseForbidden
+from django.http import HttpResponse, HttpResponseForbidden
 from django.shortcuts import redirect, render, get_object_or_404
 from recipes.forms import RecipeForm
 from recipes.models import Recipe
 
+
+# Error handlers
+def error_404_view(request, exception):
+    return render(request, '404.html', status=404)
+
+def error_500_view(request):
+    return render(request, '500.html', status=500)
+
+def error_403_view(request, exception):
+    return render(request, '403.html', status=403)
+
+def error_400_view(request, exception):
+    return render(request, '400.html', status=400)
+
+# index
 def index(request):
     return render(request, 'index.html')
 
+# Recipes views
 def public_recipes(request):
     """List all public recipes"""
     recipes = Recipe.objects.filter(is_public=True)

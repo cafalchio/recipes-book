@@ -1,6 +1,15 @@
 {% extends 'base.html' %}
-
+{% block extra_title %} - 400 Error{% endblock %}
 {% block content %}
-<h1>Page not found</h1>
-<p>The requested page could not be found.</p>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="text-center mt-5">
+                <h1 class="display-4">400 Bad Request</h1>
+                <p class="lead">Oops! Something went wrong. Please try to go to another page or check the URL.</p>
+                <a class="btn btn-success" href="{% url 'index' %}">Go to Homepage</a>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

@@ -21,7 +21,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['recipes-book.herokuapp.com', "*"]
 
@@ -136,3 +136,10 @@ DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# error handles
+
+handler404 = 'recipes.views.error_404_view'
+handler500 = 'recipes.views.error_500_view'
+handler403 = 'recipes.views.error_403_view'
+handler400 = 'recipes.views.error_400_view'

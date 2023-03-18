@@ -1,6 +1,15 @@
 {% extends 'base.html' %}
-{% block extra_title %} - 403 Error{% endblock %}
+{% block extra_title %} - 403 Access Forbiden{% endblock %}
 {% block content %}
-<h1>Sorry, you have no permission.</h1>
-<p>PLease, try to go to another page.</p>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="text-center mt-5">
+                <h1 class="display-4">403 Forbiden</h1>
+                <p class="lead">Oops! Something went wrong. Please try to go to another page or check the URL.</p>
+                <a class="btn btn-success" href="{% url 'index' %}">Go to Homepage</a>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
