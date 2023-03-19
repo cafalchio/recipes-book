@@ -32,12 +32,13 @@ This site was created respecting the Five Planes Of Website Design:
 ## Structure
 
 **Guest** Can see the home page - Can see public recipes - can sign up -- can login
+
 **User** Can see home page -- Can see public recipes -- can add recipes -- can edit recipes -- can delete recipes -- can logout
 
 ## Skeleton
 
 
-## Surface
+## Style
 
 ### Color Scheme
 
@@ -54,26 +55,28 @@ This site was created respecting the Five Planes Of Website Design:
     The fonts were selected to be used as system fonts. 
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-# Agile Methodology
+## Agile Methodology
     This project was developed using the Agile methodology.
     All user stories implementation progress was registered using Github Projects.
 
 
 
-# Features
 ## Existing Features
 
-### Create Recipes
+## View Recipes
+As a user I can browse and view recipes on the website so that so I can find new meal ideas and inspiration.
 
+### Create Recipes
+As a cooking enthusiast I can add my own recipes to the website so that I can share them with others and have a centralized place to store them
 
 ### Delete Recipes
-
+As a user I can delete my own recipes so that remove any outdated or unwanted recipes from the website
 
 ### Editing Recipes
-
+As a user I can edit my own recipes so that **I can make updates or correct any errors**
 
 ### Make Recipes Public/Private
-
+As a user I can mark my recipes as public so that I can share them with everyone
 
 ## Future Features
 
@@ -83,7 +86,6 @@ This site was created respecting the Five Planes Of Website Design:
 
 ### Add Stars Ratings to Recipes
     User would be able to add from 1-5 stars to each recipe, the result stars would be the average score between all users that gave a review.
-
 
 
 # Tools Used
