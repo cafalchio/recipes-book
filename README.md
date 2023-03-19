@@ -82,25 +82,7 @@ This site was created respecting the Five Planes Of Website Design:
 ### Add Stars Ratings to Recipes
     User would be able to add from 1-5 stars to each recipe, the result stars would be the average score between all users that gave a review.
 
-# Responsive Layout
 
-    **Tested on simulated devices**
-    *Galaxy Note 20 - Android 11
-    *Galaxy S20 Ultra - Android 11
-    *Galaxy S9/S9+ - Android 7
-    *iPhone 11 Pro - iOS 14.6
-    *iPhone 12/13 Pro Max - iOS 14.6
-    *iPhone 5/SE - iOS 10.3.1
-    *iPhone 6/7/8 - iOS 11
-    *iPhone SE 2nd gen - iOS 14.6
-    *iPhone X/XS - iOS 12
-    *iPhone XR/11 - iOS 12
-    *iPadiPadOS - 14.7.1
-    *Kindle Fire - HDXLinux
-
-    **Tested on real devices**
-    Pixel 5 - Android 11
-    Motorola g7 Power - Android 10
 
 # Tools Used
 
@@ -119,10 +101,55 @@ This site was created respecting the Five Planes Of Website Design:
 
 
 ## Python Packages
+
 # Testing
+
+    Pep8 - No errors found on pages created by me
+    CSS - No errors found
+    w3.org HTML validator: 
+        Just an info found in the cloudinary image address.
+        INFO: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+Manual testing:
+    Responsiveness tested on:
+
+**Tested on simulated devices**
+*Galaxy Note 20 - Android 11
+*Galaxy S20 Ultra - Android 11
+*Galaxy S9/S9+ - Android 7
+*iPhone 11 Pro - iOS 14.6
+*iPhone 12/13 Pro Max - iOS 14.6
+*iPhone 5/SE - iOS 10.3.1
+*iPhone 6/7/8 - iOS 11
+*iPhone SE 2nd gen - iOS 14.6
+*iPhone X/XS - iOS 12
+*iPhone XR/11 - iOS 12
+*iPadiPadOS - 14.7.1
+*Kindle Fire - HDXLinux
+
+**Tested on real devices**
+Pixel 5 - Android 11
+Motorola g7 Power - Android 10
+
+**Browsers**
+Firefox
+Chromium
+Edge
+Chrome
+
+**User Cases**
+
+Tested Navigation
+Login, sign in and logout
+Add recipe
+Delete recipe
+Edit recipe
+List recipes
+Se unique recipe
+
+
 # Deployment
 
-    Deploy on Heroku
+    Deployed on Heroku
 
     Create Pipfile
 
@@ -141,9 +168,8 @@ This site was created respecting the Five Planes Of Website Design:
         Go to the Deploy tab.
         Deploy :)
 
-
-## Deploy on Heroku
 # Credits
+
 # Acknowledgements
 
 
