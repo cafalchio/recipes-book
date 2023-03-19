@@ -213,10 +213,10 @@ This site was created respecting the Five Planes Of Website Design:
 **Lighthouse**
     
     Desktop:
-![Desktop lighthouse](tatic/doc_images/lighthouse_performance.png "Desktop lighthouse")
+![Desktop lighthouse](static/doc_images/lighthouse_performance.png "Desktop lighthouse")
 
     Mobile: 
-![Mobile lighthouse](tatic/doc_images/lighthouse_mobile.png "Mobile lighthouse")
+![Mobile lighthouse](static/doc_images/lighthouse_mobile.png "Mobile lighthouse")
 
 ## Deployment
 
