@@ -53,18 +53,70 @@ This site was created respecting the Five Planes Of Website Design:
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 # Agile Methodology
+    This project was developed using the Agile methodology.
+    All user stories implementation progress was registered using Github Projects.
+
+
 
 # Features
 ## Existing Features
+
 ### Create Recipes
+
+
 ### Delete Recipes
+
+
 ### Editing Recipes
+
+
 ### Make Recipes Public/Private
+
+
 ## Future Features
+
 ### Adding Comments to Recipes
-### Add Stars to Recipes
+
+    As a future feature for the recipes website, I would like to add the ability for users to leave comments on recipes. This would allow users to share their thoughts, experiences, and suggestions with others
+
+### Add Stars Ratings to Recipes
+    User would be able to add from 1-5 stars to each recipe, the result stars would be the average score between all users that gave a review.
+
 # Responsive Layout
-# Tools User
+
+    **Tested on simulated devices**
+    *Galaxy Note 20 - Android 11
+    *Galaxy S20 Ultra - Android 11
+    *Galaxy S9/S9+ - Android 7
+    *iPhone 11 Pro - iOS 14.6
+    *iPhone 12/13 Pro Max - iOS 14.6
+    *iPhone 5/SE - iOS 10.3.1
+    *iPhone 6/7/8 - iOS 11
+    *iPhone SE 2nd gen - iOS 14.6
+    *iPhone X/XS - iOS 12
+    *iPhone XR/11 - iOS 12
+    *iPadiPadOS - 14.7.1
+    *Kindle Fire - HDXLinux
+
+    **Tested on real devices**
+    Pixel 5 - Android 11
+    Motorola g7 Power - Android 10
+
+# Tools Used
+
+    GitHub - used for hosting the source code of the program
+    Visual Studio - for writing and testing the code
+    Heroku - used for deploying the project
+    TablePlus - for managing the database entries
+    GIMP  - GNU Image Manipulation Program
+    Cloudinary - for storing static data
+    Bootstrap5 - for styling and responsiveness
+    PEP8 Validator - used for validating the python code
+    HTML - W3C HTML Validator - used for validating the HTML
+    Firefox Dev Tools - For Debugging
+
+
+
 ## Python Packages
 # Testing
 # Deployment
