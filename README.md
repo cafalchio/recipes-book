@@ -88,7 +88,7 @@ As a user I can mark my recipes as public so that I can share them with everyone
     User would be able to add from 1-5 stars to each recipe, the result stars would be the average score between all users that gave a review.
 
 
-# Tools Used
+## Tools Used
 
     GitHub - used for hosting the source code of the program
     Visual Studio - for writing and testing the code
@@ -135,7 +135,7 @@ urllib3==1.26.15
 
 
 
-# Testing
+## Testing
 
     Pep8 - No errors found on pages created by me
     CSS - No errors found
@@ -180,7 +180,7 @@ List recipes
 Se unique recipe
 
 
-# Deployment
+## Deployment
 
     Deployed on Heroku
 
@@ -201,9 +201,9 @@ Se unique recipe
         Go to the Deploy tab.
         Deploy :)
 
-# Credits
+## Credits
 
-# Acknowledgements
+## Acknowledgements
 
 
 
