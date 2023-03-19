@@ -31,6 +31,8 @@ Visitors can brownse public recipes to find the dish they want to prepare.
 ## UX
 This site was created respecting the Five Planes Of Website Design:
 
+[teste](static/doc_images/lighthouse_performance.png)
+
 ## Strategy
 
 **User Stories:**  
@@ -48,7 +50,6 @@ This site was created respecting the Five Planes Of Website Design:
 * Add recipes, delete and edit.
 * View recipes in a easy and beautiful way.
 * Available and responsive in every device.
-
 
 ## Structure
 
@@ -224,6 +225,8 @@ This site was created respecting the Five Planes Of Website Design:
         Deploy :)
 
 ## Credits
+
+
 
 ## Acknowledgements
 
