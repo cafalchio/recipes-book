@@ -1,3 +1,5 @@
+# RECIPES'S BOOK WEBAPP
+
 # Overview
 
 Recipe's Book is an online Plataform designed for cooking enthusiastics and food lovers. It is a place to 
@@ -101,6 +103,35 @@ This site was created respecting the Five Planes Of Website Design:
 
 
 ## Python Packages
+
+asgiref==3.6.0
+certifi==2022.12.7
+cffi==1.15.1
+charset-normalizer==3.1.0
+cloudinary==1.32.0
+cryptography==39.0.2
+defusedxml==0.7.1
+dj-database-url==1.2.0
+dj3-cloudinary-storage==0.0.6
+Django==4.1.7
+django-allauth==0.52.0
+django-bootstrap5==22.2
+django-fontawesome-5==1.0.18
+gunicorn==20.1.0
+idna==3.4
+oauthlib==3.2.2
+psycopg2-binary==2.9.5
+pycparser==2.21
+PyJWT==2.6.0
+python-dotenv==1.0.0
+python3-openid==3.2.0
+requests==2.28.2
+requests-oauthlib==1.3.1
+six==1.16.0
+sqlparse==0.4.3
+urllib3==1.26.15
+
+
 
 # Testing
 
