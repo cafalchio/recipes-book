@@ -31,7 +31,7 @@ Visitors can brownse public recipes to find the dish they want to prepare.
 ## UX
 This site was created respecting the Five Planes Of Website Design:
 
-[Webpage view](static/doc_images/webpage.png)
+![Webpage view](static/doc_images/webpage.png, "Page Screenshot")
 
 ## Strategy
 
@@ -63,7 +63,7 @@ This site was created respecting the Five Planes Of Website Design:
 
     The colors choosen can all be seen in this image: The colors in hexa are:
     [colors](static/doc_images/colors.png)
-    
+
     --bs-green: #2da2a6;
     --bl-background: #00000020;
     --text-subtle: #64697d;
@@ -224,6 +224,9 @@ This site was created respecting the Five Planes Of Website Design:
 
 ## Credits
 
+
+
+    https://github.com/useriasminna/italianissimo-booking-website/ - readme scheme
 
 
 ## Acknowledgements
