@@ -168,7 +168,7 @@ This site was created respecting the Five Planes Of Website Design:
     w3.org HTML validator: 
         Just an info found in the cloudinary image address.
         INFO: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
-![HTML test](tatic/doc_images/html.png "HTML test")
+![HTML test](static/doc_images/html.png "HTML test")
     
     Manual testing:
         Responsiveness tested on:
