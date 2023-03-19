@@ -62,7 +62,7 @@ This site was created respecting the Five Planes Of Website Design:
 ### Color Scheme
 
     The colors choosen can all be seen in this image: The colors in hexa are:
-    ![Colors](static/doc_images/colors.png "Colors")
+![Colors](static/doc_images/colors.png "Colors")
 
     --bs-green: #2da2a6;
     --bl-background: #00000020;
@@ -80,29 +80,29 @@ This site was created respecting the Five Planes Of Website Design:
     This project was developed using the Agile methodology.
     All user stories implementation progress was registered using Github Projects.
     
-    ![Agile](static/doc_images/user_cases.png "Agile Project")
+![Agile](static/doc_images/user_cases.png "Agile Project")
 
 
 ## Existing Features
 
 ## View Recipes
     As a user I can browse and view recipes on the website so that so I can find new meal ideas and inspiration.
-    ![View Recipes](static/doc_images/all_recipes.png "View Recipes")
+![View Recipes](static/doc_images/all_recipes.png "View Recipes")
 
 ### Create Recipes
     As a cooking enthusiast I can add my own recipes to the website so that I can share them with others and have a centralized place to store them
-    ![Create Recipes](static/doc_images/Add_recipes.png "Create Recipes")
+![Create Recipes](static/doc_images/Add_recipes.png "Create Recipes")
 
 ### Delete Recipes
     As a user I can delete my own recipes so that remove any outdated or unwanted recipes from the website
 
 ### Editing Recipes
     As a user I can edit my own recipes so that **I can make updates or correct any errors**
-    ![Edit / Delete](static/doc_images/edit_delete.png "Edit / Delete")
+![Edit / Delete](static/doc_images/edit_delete.png "Edit / Delete")
 
 ### Make Recipes Public/Private
     As a user I can mark my recipes as public so that I can share them with everyone
-    ![Public / Private](static/doc_images/private.png "Public / Private")
+![Public / Private](static/doc_images/private.png "Public / Private")
 
 ## Future Features
 
@@ -163,12 +163,12 @@ This site was created respecting the Five Planes Of Website Design:
     Pep8 - No errors found on pages created by me
 
     CSS - No errors found
-    ![CSS](static/doc_images/css_test.png "CSS test")
+![CSS](static/doc_images/css_test.png "CSS test")
 
     w3.org HTML validator: 
         Just an info found in the cloudinary image address.
         INFO: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
-        ![HTML test](tatic/doc_images/html.png "HTML test")
+![HTML test](tatic/doc_images/html.png "HTML test")
     
     Manual testing:
         Responsiveness tested on:
@@ -210,10 +210,10 @@ This site was created respecting the Five Planes Of Website Design:
 **Lighthouse**
     
     Desktop:
-        ![Desktop lighthouse](tatic/doc_images/lighthouse_performance.png "Desktop lighthouse")
+![Desktop lighthouse](tatic/doc_images/lighthouse_performance.png "Desktop lighthouse")
 
     Mobile: 
-        ![Mobile lighthouse](tatic/doc_images/lighthouse_mobile.png "Mobile lighthouse")
+![Mobile lighthouse](tatic/doc_images/lighthouse_mobile.png "Mobile lighthouse")
 
 ## Deployment
 
