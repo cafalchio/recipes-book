@@ -174,6 +174,7 @@ This site was created respecting the Five Planes Of Website Design:
         Responsiveness tested on:
 
 **Tested on simulated devices**
+
     *Galaxy Note 20 - Android 11
     *Galaxy S20 Ultra - Android 11
     *Galaxy S9/S9+ - Android 7
@@ -188,10 +189,12 @@ This site was created respecting the Five Planes Of Website Design:
     *Kindle Fire - HDXLinux
 
 **Tested on real devices**
+
     Pixel 5 - Android 11
     Motorola g7 Power - Android 10
 
 **Browsers**
+
     Firefox
     Chromium
     Edge
