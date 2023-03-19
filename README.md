@@ -31,7 +31,7 @@ Visitors can brownse public recipes to find the dish they want to prepare.
 ## UX
 This site was created respecting the Five Planes Of Website Design:
 
-![Webpage view](static/doc_images/webpage.png, "Page Screenshot")
+![Webpage view](static/doc_images/webpage.png "Page Screenshot")
 
 ## Strategy
 
