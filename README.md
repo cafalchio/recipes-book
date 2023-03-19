@@ -114,12 +114,34 @@ This site was created respecting the Five Planes Of Website Design:
     PEP8 Validator - used for validating the python code
     HTML - W3C HTML Validator - used for validating the HTML
     Firefox Dev Tools - For Debugging
-
+    Chromium - Lighthouse testing
+    ElephantSQL - For database hosting
 
 
 ## Python Packages
 # Testing
 # Deployment
+
+    Deploy on Heroku
+
+    Create Pipfile
+
+    In the terminal enter the command  pip3 freeze --local > requirements.txt, and a file with all requirements will be created.
+
+    Deployment on Heroku
+        Create a database in ElephantSQL (https://www.elephantsql.com/)
+        Go to the Heroku website (https://www.heroku.com/)
+        Login to Heroku and choose Create App
+        Click New and Create a new app
+        Choose a name and select your location
+        Go to the Settings tab
+        Reveal Config Vars and add your Cloudinary, Database URL, Secret key and PORT.
+        Navigate to the Deploy tab
+        Click on Connect to Github and search for your repository
+        Go to the Deploy tab.
+        Deploy :)
+
+
 ## Deploy on Heroku
 # Credits
 # Acknowledgements
