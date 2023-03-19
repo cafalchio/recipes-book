@@ -31,7 +31,7 @@ Visitors can brownse public recipes to find the dish they want to prepare.
 ## UX
 This site was created respecting the Five Planes Of Website Design:
 
-[teste](static/doc_images/lighthouse_performance.png)
+[Webpage view](static/doc_images/webpage.png)
 
 ## Strategy
 
@@ -57,15 +57,13 @@ This site was created respecting the Five Planes Of Website Design:
 
 **User** Can see home page -- Can see public recipes -- can add recipes -- can edit recipes -- can delete recipes -- can logout
 
-## Skeleton
-
-
 ## Style
 
 ### Color Scheme
 
     The colors choosen can all be seen in this image: The colors in hexa are:
-
+    [colors](static/doc_images/colors.png)
+    
     --bs-green: #2da2a6;
     --bl-background: #00000020;
     --text-subtle: #64697d;
