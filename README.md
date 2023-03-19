@@ -115,48 +115,48 @@ User would be able to add from 1-5 stars to each recipe, the result stars would 
 
 ## Tools Used
 
-GitHub - used for hosting the source code of the program
-Visual Studio - for writing and testing the code
-Heroku - used for deploying the project
-TablePlus - for managing the database entries
-GIMP  - GNU Image Manipulation Program
-Cloudinary - for storing static data
-Bootstrap5 - for styling and responsiveness
-PEP8 Validator - used for validating the python code
-HTML - W3C HTML Validator - used for validating the HTML
-Firefox Dev Tools - For Debugging
-Chromium - Lighthouse testing
-ElephantSQL - For database hosting
+- GitHub - used for hosting the source code of the program
+- Visual Studio - for writing and testing the code
+- Heroku - used for deploying the project
+- TablePlus - for managing the database entries
+- GIMP  - GNU Image Manipulation Program
+- Cloudinary - for storing static data
+- Bootstrap5 - for styling and responsiveness
+- PEP8 Validator - used for validating the python code
+- HTML - W3C HTML Validator - used for validating the HTML
+- Firefox Dev Tools - For Debugging
+- Chromium - Lighthouse testing
+- ElephantSQL - For database hosting
 
 
 ## Python Packages
 
-asgiref==3.6.0
-certifi==2022.12.7
-cffi==1.15.1
-charset-normalizer==3.1.0
-cloudinary==1.32.0
-cryptography==39.0.2
-defusedxml==0.7.1
-dj-database-url==1.2.0
-dj3-cloudinary-storage==0.0.6
-Django==4.1.7
-django-allauth==0.52.0
-django-bootstrap5==22.2
-django-fontawesome-5==1.0.18
-gunicorn==20.1.0
-idna==3.4
-oauthlib==3.2.2
-psycopg2-binary==2.9.5
-pycparser==2.21
-PyJWT==2.6.0
-python-dotenv==1.0.0
-python3-openid==3.2.0
-requests==2.28.2
-requests-oauthlib==1.3.1
-six==1.16.0
-sqlparse==0.4.3
-urllib3==1.26.15
+- asgiref==3.6.0
+- certifi==2022.12.7
+- cffi==1.15.1
+- charset-normalizer==3.1.0
+- cloudinary==1.32.0
+- cryptography==39.0.2
+- defusedxml==0.7.1
+- dj-database-url==1.2.0
+- dj3-cloudinary-storage==0.0.6
+- Django==4.1.7
+- django-allauth==0.52.0
+- django-bootstrap5==22.2
+- django-fontawesome-5==1.0.18
+- gunicorn==20.1.0
+- idna==3.4
+- oauthlib==3.2.2
+- psycopg2-binary==2.9.5
+- pycparser==2.21
+- PyJWT==2.6.0
+- python-dotenv==1.0.0
+- python3-openid==3.2.0
+- requests==2.28.2
+- requests-oauthlib==1.3.1
+- six==1.16.0
+- sqlparse==0.4.3
+- urllib3==1.26.15
 
 ## Testing
 
@@ -175,40 +175,40 @@ Responsiveness tested on:
 
 **Tested on simulated devices**
 
-*Galaxy Note 20 - Android 11
-*Galaxy S20 Ultra - Android 11
-*Galaxy S9/S9+ - Android 7
-*iPhone 11 Pro - iOS 14.6
-*iPhone 12/13 Pro Max - iOS 14.6
-*iPhone 5/SE - iOS 10.3.1
-*iPhone 6/7/8 - iOS 11
-*iPhone SE 2nd gen - iOS 14.6
-*iPhone X/XS - iOS 12
-*iPhone XR/11 - iOS 12
-*iPadiPadOS - 14.7.1
-*Kindle Fire - HDXLinux
+- Galaxy Note 20 - Android 11
+- Galaxy S20 Ultra - Android 11
+- Galaxy S9/S9+ - Android 7
+- iPhone 11 Pro - iOS 14.6
+- iPhone 12/13 Pro Max - iOS 14.6
+- iPhone 5/SE - iOS 10.3.1
+- iPhone 6/7/8 - iOS 11
+- iPhone SE 2nd gen - iOS 14.6
+- iPhone X/XS - iOS 12
+- iPhone XR/11 - iOS 12
+- iPadiPadOS - 14.7.1
+- Kindle Fire - HDXLinux
 
 **Tested on real devices**
 
-Pixel 5 - Android 11
-Motorola g7 Power - Android 10
+- Pixel 5 - Android 11
+- Motorola g7 Power - Android 10
 
 **Browsers**
 
-Firefox
-Chromium
-Edge
-Chrome
+- Firefox
+- Chromium
+- Edge
+- Chrome
 
 **User Cases**
 
-Tested Navigation
-Login, sign in and logout
-Add recipe
-Delete recipe
-Edit recipe
-List recipes
-Se unique recipe
+- Tested Navigation
+- Login, sign in and logout
+- Add recipe
+- Delete recipe
+- Edit recipe
+- List recipes
+- Se unique recipe
 
 **Lighthouse**
 
@@ -226,24 +226,24 @@ Create Pipfile
 
 In the terminal enter the command  pip3 freeze --local > requirements.txt, and a file with all requirements will be created.
 
-Deployment on Heroku
-Create a database in ElephantSQL (https://www.elephantsql.com/)
-Go to the Heroku website (https://www.heroku.com/)
-Login to Heroku and choose Create App
-Click New and Create a new app
-Choose a name and select your location
-Go to the Settings tab
-Reveal Config Vars and add your Cloudinary, Database URL, Secret key and PORT.
-Navigate to the Deploy tab
-Click on Connect to Github and search for your repository
-Go to the Deploy tab.
-Deploy :)
+- Deployment on Heroku
+- Create a database in ElephantSQL (https://www.elephantsql.com/)
+- Go to the Heroku website (https://www.heroku.com/)
+- Login to Heroku and choose Create App
+- Click New and Create a new app
+- Choose a name and select your location
+- Go to the Settings tab
+- Reveal Config Vars and add your Cloudinary, Database URL, Secret key and PORT.
+- Navigate to the Deploy tab
+- Click on Connect to Github and search for your repository
+- Go to the Deploy tab.
+- Deploy :)
 
 ## Credits
 
 
 
-https://github.com/useriasminna/italianissimo-booking-website/ - readme scheme
+- https://github.com/useriasminna/italianissimo-booking-website/ - readme scheme
 
 
 ## Acknowledgements
