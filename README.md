@@ -7,6 +7,27 @@ share recipes and keep the secret recipes for easy access. User can easily add, 
 Visitors can brownse public recipes to find the dish they want to prepare.
 [Click here to see the online version of recipes-book](https://recipes-book.herokuapp.com/)
 
+# Table of contents
+
+- [RECIPES'S BOOK WEBAPP](#recipess-book-webapp)
+- [Overview](#overview)
+- [UX](#ux)
+  - [Strategy](#strategy)
+  - [Structure](#structure)
+  - [Skeleton](#skeleton)
+  - [Style](#style)
+  - [Agile Methodology](#agile-methodology)
+  - [Existing Features](#existing-features)
+  - [View Recipes](#view-recipes)
+  - [Future Features](#future-features)
+  - [Tools Used](#tools-used)
+  - [Python Packages](#python-packages)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+  - [Acknowledgements](#acknowledgements)
+
+
 # UX
 This site was created respecting the Five Planes Of Website Design:
 
