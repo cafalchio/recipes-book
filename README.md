@@ -127,6 +127,7 @@ User would be able to add from 1-5 stars to each recipe, the result stars would 
 - Firefox Dev Tools - For Debugging
 - Chromium - Lighthouse testing
 - ElephantSQL - For database hosting
+- https://www.lucidchart.com - for diagrams
 
 
 ## Python Packages
@@ -241,12 +242,18 @@ In the terminal enter the command  pip3 freeze --local > requirements.txt, and a
 
 ## Credits
 
-
-
+- BBC recipes, which some of the recipes were adapted from
+- https://www.youtube.com/watch?v=CVEKe39VFu8 - django forms 
 - https://github.com/useriasminna/italianissimo-booking-website/ - readme scheme
+- https://www.w3schools.com/django/ for lessons
 
 
 ## Acknowledgements
 
+- My mentor Chris, who helped with the project from beginning to end
+- Code Institute community and tutors
+- Stack Overflow for clarifying doubts and providing helpful solutions
+- Friends and family for providing feedback and testing the website
+- All the creators of the open-source libraries and tools used in this project
 
 
